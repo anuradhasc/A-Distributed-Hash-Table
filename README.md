@@ -1,0 +1,2 @@
+# A-Distributed-Hash-Table
+Designed a distributed hash table. Each peer servers both as a client and as a server. As a client, it provides interfaces through which users can issue queries and view search results. As a server, it accepts queries from other peers, checks for matches against its local hash table, and responds with corresponding results.  In addition, since there's no central  indexing  server, search is done through consistent hashing.
